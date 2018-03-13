@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>:: Metalmecanica Chumbe ::</title>
+<meta charset ="UTF-8">
+<link href="metal.png" rel="shorcut icon"/>
+<link href="css/estilos.css" rel="stylesheet"/>
+<script src="js/jquery-2.2.3.min.js"></script>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="js/main.js""></script>
+
+<!--
+<style type="text/css">
+header{
+background-color:#e2122a;
+}
+
+</style> -->
+
+<script src="js/jquery-2.2.3.min.js"></script>
+
+<!-- jQuery library (served from Google) -->
+<!--Forma 1-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<!--Forma 2 jQuery local-->
+<script src="js/jquery.min.js"></script>
+
+<!-- bxSlider Javascript file -->
+<script src="js/jquery.bxslider.min.js"></script>
+
+<!-- bxSlider CSS file -->
+<!--Ubicacion de la hoja de estilos en cascada -->
+<link href="css/jquery.bxslider.css" rel="stylesheet" />
+
+
+</head>
+<body>
+
+
+ <header class="menu-fixed">
+ 	<div class="logo">
+ 		<img src="img/metal8.jpg" width ="300px" height="90px"> 
+ 	</div>
+
+ <nav> 
+   
+   <div id="menu">
+		<ul id="contenido"> 
+			<li><a href="index.html.html">INICIO</a></li>
+			<li><a href="#">NOSOTROS</a>
+				<ul>
+					<li><a href="html/mision.html">Misión/Visión</a></li>
+					<li><a href="#">Publicaciones</a></li>
+					<li><a href="#">Fundadores</a></li>
+				</ul>
+			</li>
+			<li><a href="#">PRODUCTOS</a>
+				<ul>
+					<li><a href="html/hogar.html">Hogar</a></li>
+					<li><a href="html/oficina.html">Oficina</a></li>
+					<li><a href="html/industrial.html">Industrial</a></li>
+				</ul>
+			</li>
+			<li><a href="#">EVENTOS</a></li>
+			<li><a href="html/contacto.html">CONTACTO</a></li>
+		</ul>
+	</div>
+
+	<script>
+		$(document).ready(function(){
+			//oculta los submenus al cargar la pagina web
+			$('ul#contenido li ul').hide();
+
+			$('ul#contenido li').hover(   //hover=estado sobre
+				function(){
+					$('ul',this).slideDown('slow'); //submenu abajo len
+				},
+				function(){
+					$('ul',this).slideUp('fast'); //submenu arriba rap
+				});
+			});	
+	</script>
+ </font>
+  </nav>
+  </header>
+  
+ <section>
+
+<div id="slider">
+	<div><a href= "http">   <img src="img/im7.png"   title="Bienvenidos a la empresa Metalmecanica"></div></a>
+	<div><a href= "http">  <img src="img/im8.png"   title="Trabajamos con la mejor maquinaria"></div></a>
+	<div><a href= "http">  <img src="img/im9.png"   title="Tenemos productos para distintos lugares desde el hogar, oficina o empresas industriales"></div></a>
+	<div><a href= "http">  <img src="img/im10.png"   title="La mejor calidad para nuestros diferentes productos"></div></a></div>
+</div>
+<script>
+$(document).ready(function(){
+                $('#slider').bxSlider({
+				
+				slideWidth:1335,
+				auto:true,
+				captions:true,
+				autoHover:true,
+				speed:2000,
+				pause:1000,
+
+				
+				});
+   });
+</script>
+
+<div id="caja1">
+	<h1>En quien mejor confiar que en nosotros</h1>
+</div>
+
+<div id="caja2">
+<p> 
+Somos una empresa dedicada a realizar proyectos de ingenieria, ademas de fabricacion y reparacion de piezas para industrias mineras.
+Nuestras estructuras metalicas son de fierro y acero inoxidable. ademas contamos con servicio de torno, fresado, cepillado, taladro, soldadura electrica y procesos tig para bronce aluminio y oxicorte. Entregamos soluciones metalmecánicas según
+las geometrías requeridas por los clientes, a través de una apropiada infraestructura y con personal de nivel técnico adecuado, con énfasis en la innovación y creatividad constante. 
+
+</p>
+</div>
+
+</section>
+ 
+ 
+ 
+
+ 
+ <footer>
+
+ <div class="container-footer-all">
+ 	
+    <div class="container-body">
+
+ 		<div class="colum1">
+ 			<h1> Mas información de la 
+ 			compañia</h1>
+
+ 			<p> Proyectos de Ingenieria, fabricacion, preparacion de piezas para la industria minera y en general, estructuras metalicas en fierro y acero inoxidable, servicio de torno, fresa, cepillo, taladro, soladura electrica y proceso tig, bronce, alumino y oxicorte</p>
+
+ 		</div>
+ 		
+ 		<div class="colum2">
+ 			<h1>Redes Sociales</h1>
+
+ 			<div class="row">
+ 				<a href="https://www.facebook.com/metalmecanicachumbeeirl/"><img src="img/f1.png"></a>
+ 				<label>Siguenos en Facebook</label>
+ 			</div>
+ 			
+ 			<div class="row">
+ 				<img src="img/f2.jpg">
+ 				<label>Siguenos en Twitter</label>				
+ 			</div>
+
+ 			<div class="row">
+ 				<img src="img/f4.png">
+ 				<label>Siguenos en Instagram</label>			
+ 			</div>
+
+ 			<div class="row">
+ 				<img src="img/f3.png">
+ 				<label>Siguenos en Youtube</label>				
+ 			</div>
+
+ 		</div>
+
+        <div class="colum3">
+
+    	 <h1>Informacion de Contacto</h1>
+
+    	 <div class="row2">
+    		<img src="img/f5.png">
+    		<label>Av. Cordillera Vilcanota Mz G-09 LT. 01 - 2da Zona - Delicias de Villa - Chorrillos</label>
+       	 </div>
+
+       	 <div class="row2">
+    		<img src="img/f6.png">
+    		<label>metalmecanicachumbe@gmail.com</label>
+       	 </div>
+
+       	 <div class="row2">
+    		<img src="img/f7.png">
+    		<label>258-8346 / 992894143 / 994126436</label>
+       	 </div>
+
+        </div>
+
+    </div>
+
+ </div>
+
+   <div class="container-footer">
+   	<div class="footer">
+   		<div class="copyright">
+    		@ 2018 Todos los derechos Reservados | 
+    	</div>
+
+        <div class="information">Diseñado por: Claudia Uscamayta
+    	
+    	</div>	
+   	</div>
+    	
+    </div>   
+ </footer>
+  
+  </body>
+  </html>

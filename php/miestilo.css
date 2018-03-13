@@ -1,0 +1,28 @@
+body{
+background-color: #b6b6b6;
+}
+
+h1{
+color: #585858;
+text-align: center;
+letter-spacing: 10px;
+font-size: 36px;
+
+}
+
+#contenedor
+{
+	width: 300px;
+	margin: 150px auto;
+	font-family:'Arial Narrow';
+    border:2px solid #b6b6b6;
+    border-radius: 10px;
+    background-color: #81BEF7;
+    box-shadow: 2px 2px 2px 2px;
+    padding: 50px;
+}
+
+#contenedor input{
+padding: 10px;
+
+}
